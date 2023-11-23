@@ -1,0 +1,71 @@
+:root {
+    --span-color: rgba(255, 153, 0, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #7d7987;
+    text-align: center;
+}
+
+#hero{
+    width: 592px;
+    margin: auto;
+}
+#hero img{
+    padding-left: 109px;
+    padding-right: 105px;
+    margin-bottom: 72px;
+}
+#hero div p{
+    margin-top: 32px;
+    margin-left: -21px;
+    margin-right: -9px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    color: black;
+}
+h1 span{
+    font-weight: bold;
+}
+
+span, a{
+    color: var(--span-color)
+}
+p{
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+#footer{
+    margin-bottom: 33px;
+}
+
+#footer a + a{
+    margin-left: 28px;
+}
+
+#footer #line{
+    width: 568px;
+    height: 0px;
+    border: 1px #ECEFF2 solid;
+    margin: 0 auto 8px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
